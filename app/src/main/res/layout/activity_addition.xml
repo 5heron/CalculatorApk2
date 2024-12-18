@@ -23,6 +23,7 @@
         android:layout_marginHorizontal="30dp"
         android:textSize="20dp"/>
     <EditText
+        android:id="@+id/num1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter the Number"
@@ -40,6 +41,7 @@
         android:layout_marginHorizontal="30dp"
         android:textSize="20dp"/>
     <EditText
+        android:id="@+id/num2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter the Number"
