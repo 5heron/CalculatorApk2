@@ -2,5 +2,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main"
     android:background="@drawable/background"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:background="@color/white"
+        android:layout_margin="10dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:layout_margin="40dp"
+        android:background="@drawable/buttonbg"/>
+</LinearLayout>
